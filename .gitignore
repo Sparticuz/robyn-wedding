@@ -1,0 +1,31 @@
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+
+# Thumbnails
+._*
+
+# Files that might appear on external disk
+.Spotlight-V100
+.Trashes
+
+#ignore SASS stuff
+.sass-cache/
+
+#sftp for sublime
+#this needs to be here because the plaintext password is in it
+sftp-config.json
+
+#don't commit css files to git
+*.css
