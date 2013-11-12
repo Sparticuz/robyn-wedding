@@ -8,7 +8,7 @@
 	<script>
 		$(document).ready(function(){
 			$("#header").sticky({ topSpacing: 0 });
-			$("#hero").height(screen.height+"px");
+			//$("#hero").height(screen.height+"px");
 		});
 	</script>
 	<style>
@@ -103,12 +103,14 @@
 			background-size: 100%;
 			vertical-align: middle;
 			position:relative;
+			background-repeat: no-repeat;
+			height: 100vh;
 		}
 		#hero span{
 			position:absolute;
 			top:25%;
 			text-align: center;
-			width:100%;
+			width:100vw;
 		}
 
 	</style>
