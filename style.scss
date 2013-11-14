@@ -1,11 +1,23 @@
+@import url('normalize.css');
+
+$serif: "Playfair Display", serif;
+$sans-serif: "Montserrat", sans-serif;
+
 body {
-	padding: 0;
-	margin: 0;
 	background-color: #ccc;
-	font-family: 'Playfair Display', serif;
+	font-family: $serif;
 }
 
-.header {
+#hero{
+	background-image: url('https://scontent-a-mia.xx.fbcdn.net/hphotos-ash3/532119_10151644330648460_645542820_n.jpg');
+	background-size: 100%;
+	vertical-align: middle;
+	position: relative;
+	background-repeat: no-repeat;
+	height: 100vh;
+}
+
+nav {
 	background-color: white;
 	background-image: url('images/heartglobe.png');
 	background-position:98% 50%;
@@ -15,20 +27,49 @@ body {
 	height:100px;
 	width:100%;
 	text-transform:uppercase;
-	font-family: 'Montserrat', sans-serif;
-	box-sizing:border-box;
+	font-family: $sans-serif;
+	ul{
+		margin:0;
+		list-style-type: none;
+		height:100px;
+		display: table;
+		li{
+			display: table-cell;
+			height:100%;
+			vertical-align: middle;
+			a {
+				display:block;
+				color:#83d4f6;
+				text-decoration: none;
+				padding: 0 24px;
+				span {
+					line-height:100px;
+				}
+				&.randa{
+					background:#ef545f;
+					color:white;
+					font-size:20px;
+					font-family: $serif;
+					&:hover span{
+						border-bottom: 0 !important;
+					}
+				}
+				.active {
+					color:#ef545f;
+					&:hover span{
+						border-bottom: 2px solid #ef545f;
+					} 	
+				}
+				&:hover span{
+					border-bottom: 2px solid #83d4f6;
+					padding-bottom: 2px
+				}
+			}
+		}
+	}
 }
 
-#randa{
-	background:#ef545f;
-	color:white;
-	display:block;
-	padding:30px;
-	font-size:20px;
-	float:left;
-	line-height: 1em;
-	font-family: 'Playfair Display', serif;
-}
+
 
 #date{
 	display:block;
@@ -42,44 +83,7 @@ section{
 	height:700px;
 }
 
-ul{
-	list-style-type: none;
-	padding-top: 24px;
-	position: absolute;
-	padding-left: 130px;
-}
 
-li{
-	display: inline;padding-left:35px;
-}
-
-a{
-	color:#83d4f6;
-	text-decoration: none;
-}
-
-a:hover{
-	border-bottom: 2px solid #83d4f6;
-	padding-bottom: 2px
-}
-
-.active a:hover{
-	border-bottom: 2px solid #ef545f;
-} 
-
-.active a{
-	color:#ef545f;
-}
-
-
-#hero{
-	background-image: url('https://scontent-a-mia.xx.fbcdn.net/hphotos-ash3/532119_10151644330648460_645542820_n.jpg');
-	background-size: 100%;
-	vertical-align: middle;
-	position: relative;
-	background-repeat: no-repeat;
-	height: 100vh;
-}
 
 #ourstory{
 	background-color:#83d4f6;

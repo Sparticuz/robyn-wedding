@@ -7,27 +7,28 @@
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-	<section id="hero">&nbsp;</section>
-	<div class="header">
-		<a href="#hero" id="randa">Robyn<br />&amp; Alex</a>
+	<section id="hero" class="panel">&nbsp;</section>
+	<nav>
+	
 		<ul>
-			<li class="menuItem"><a href="#ourstory">Our Story</a></li>
-			<li class="menuItem"><a href="#people">Bridal Party</a></li>
-			<li class="menuItem"><a href="#info">Information</a></li>
-			<li class="menuItem"><a href="#registry">Registry</a></li>
+			<li class="menuItem"><a href="#hero" class="randa"><span>Robyn &amp; Alex</span></a></li>
+			<li class="menuItem"><a href="#ourstory"><span>Our Story</span></a></li>
+			<li class="menuItem"><a href="#people"><span>Bridal Party</span></a></li>
+			<li class="menuItem"><a href="#info"><span>Information</span></a></li>
+			<li class="menuItem"><a href="#registry"><span>Registry</span></a></li>
 		</ul>
-	</div>
-	<section id="ourstory">
+	</nav>
+	<section id="ourstory" class="panel">
 		<p>Our Story goes here</p>
 	</section>
 	<div id="backimage">&nbsp;</div>
-	<section id="people">
+	<section id="people" class="panel">
 		<p>Bridal Party</p>
 	</section>
-	<section id="info">
+	<section id="info" class="panel">
 		<p>Information</p>
 	</section>
-	<section id="registry">
+	<section id="registry" class="panel">
 		<p>Our Registery</p>
 	</section>
 	<div id="bibleblock"><span>Husbands, love your wives, as Christ loved the church and gave himself up for her.</span><span id="ephesians">Ephesians 5:25</span></div>
@@ -39,7 +40,7 @@
 	<script type="text/javascript">
 	jQuery(function($){
 		$(document).ready( function() {
-			$('.header').stickUp({
+			$('nav').stickUp({
 				parts: {
 					0:'hero',
 					1:'ourstory',
@@ -48,7 +49,7 @@
 					4:'registry',
 				},
 				itemClass: 'menuItem',
-				itemHover: 'active'
+				itemHover: 'active',
 			});
 		});
 	});
