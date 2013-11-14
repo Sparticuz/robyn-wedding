@@ -11,12 +11,12 @@
     photo of robyn and alex
   </section>
   <div class="header">
-    <span id="randa">Robyn<br />& Alex</span>
+    <a href="#hero" id="randa">Robyn<br />& Alex</a>
     <ul>
-      <li><a href="">Our Story</a></li>
-      <li><a href="">Bridal Party</a></li>
-      <li><a href="">Information</a></li>
-      <li><a href="">Registry</a></li>
+      <li class="menuItem"><a href="#ourstory">Our Story</a></li>
+      <li class="menuItem"><a href="#people">Bridal Party</a></li>
+      <li class="menuItem"><a href="#info">Information</a></li>
+      <li class="menuItem"><a href="#registry">Registry</a></li>
     </ul>
   </div>
     <section id="ourstory">
@@ -34,17 +34,44 @@
   </section>
     <div id="bibleblock">Husbands, love your wives, as Christ loved the church and gave himself up for her.<span id="ephesians">Ephesians 5:25</span></div>
     <div id="ohhey">Photo of Robyn and Alex</div>
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-<script src="/stickUp.min.js"></script>
 
-      <script type="text/javascript">
-              //initiating jQuery
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="stickUp.js"></script>
+
+<script type="text/javascript">
+              //initiating jQuery  
               jQuery(function($) {
                 $(document).ready( function() {
-                  $('.header').stickUp();
+                  //enabling stickUp on the '.navbar-wrapper' class
+                  $('.header').stickUp({
+                                parts: {
+                                  0:'hero',
+                                  1:'ourstory',
+                                  2:'people',
+                                  3:'info',
+                                  4:'registry',
+                                },
+                                itemClass: 'menuItem',
+                                itemHover: 'active'
+                              });
                 });
               });
 
+              $('a[href*=#]:not([href=#])').click(function() {
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') 
+        || location.hostname == this.hostname) {
+
+        var target = $(this.hash);
+        target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+           if (target.length) {
+             $('html,body').animate({
+                 scrollTop: target.offset().top
+            }, 1000);
+            return false;
+        }
+    }
+});
+            
             </script>
 </body>
 </html>
