@@ -1,76 +1,70 @@
 
-<!doctype html>
+<!DOCTYPE html>
 <html>
 <head>
-  <title>Robyn & Alex are getting Married!</title>
-  <link href='http://fonts.googleapis.com/css?family=Playfair+Display:400,400italic|Montserrat' rel='stylesheet' type='text/css'>
-  <link rel="stylesheet" type="text/css" href="style.css">
+	<title>Robyn &amp; Alex are getting Married!</title>
+	<link href="//fonts.googleapis.com/css?family=Playfair+Display:400,400italic|Montserrat" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-  <section id="hero">
-  </section>
-  <div class="header">
-    <a href="#hero" id="randa">Robyn<br />& Alex</a>
-    <ul>
-      <li class="menuItem"><a href="#ourstory">Our Story</a></li>
-      <li class="menuItem"><a href="#people">Bridal Party</a></li>
-      <li class="menuItem"><a href="#info">Information</a></li>
-      <li class="menuItem"><a href="#registry">Registry</a></li>
-    </ul>
-  </div>
-    <section id="ourstory">
-      Our Story goes here
-  </section>
-  <div id="backimage"></div>
-    <section id="people">
-      Bridal Party
-  </section>
-    <section id="info">
-      Information
-  </section>
-    <section id="registry">
-      Our Registery
-  </section>
-    <div id="bibleblock">Husbands, love your wives, as Christ loved the church and gave himself up for her.<span id="ephesians">Ephesians 5:25</span></div>
-    <div id="ohhey"></div>
+	<section id="hero">&nbsp;</section>
+	<div class="header">
+		<a href="#hero" id="randa">Robyn<br />&amp; Alex</a>
+		<ul>
+			<li class="menuItem"><a href="#ourstory">Our Story</a></li>
+			<li class="menuItem"><a href="#people">Bridal Party</a></li>
+			<li class="menuItem"><a href="#info">Information</a></li>
+			<li class="menuItem"><a href="#registry">Registry</a></li>
+		</ul>
+	</div>
+	<section id="ourstory">
+		<p>Our Story goes here</p>
+	</section>
+	<div id="backimage">&nbsp;</div>
+	<section id="people">
+		<p>Bridal Party</p>
+	</section>
+	<section id="info">
+		<p>Information</p>
+	</section>
+	<section id="registry">
+		<p>Our Registery</p>
+	</section>
+	<div id="bibleblock"><span>Husbands, love your wives, as Christ loved the church and gave himself up for her.</span><span id="ephesians">Ephesians 5:25</span></div>
+	<div id="ohhey">&nbsp;</div>
 
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-<script src="stickUp.js"></script>
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<script src="stickUp.js"></script>
 
-<script type="text/javascript">
-              //initiating jQuery  
-              jQuery(function($) {
-                $(document).ready( function() {
-                  //enabling stickUp on the '.navbar-wrapper' class
-                  $('.header').stickUp({
-                                parts: {
-                                  0:'hero',
-                                  1:'ourstory',
-                                  2:'people',
-                                  3:'info',
-                                  4:'registry',
-                                },
-                                itemClass: 'menuItem',
-                                itemHover: 'active'
-                              });
-                });
-              });
+	<script type="text/javascript">
+	jQuery(function($){
+		$(document).ready( function() {
+			$('.header').stickUp({
+				parts: {
+					0:'hero',
+					1:'ourstory',
+					2:'people',
+					3:'info',
+					4:'registry',
+				},
+				itemClass: 'menuItem',
+				itemHover: 'active'
+			});
 
-              $('a[href*=#]:not([href=#])').click(function() {
-    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') 
-        || location.hostname == this.hostname) {
-
-        var target = $(this.hash);
-        target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-           if (target.length) {
-             $('html,body').animate({
-                 scrollTop: target.offset().top
-            }, 1000);
-            return false;
-        }
-    }
-});
-            
-            </script>
+			$('a[href*=#]:not([href=#])').click(function() {
+				if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') || location.hostname == this.hostname) {
+					var target = $(this.hash);
+					target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+					if (target.length) {
+						$('html,body').animate({
+							scrollTop: target.offset().top
+						}, 1000);
+						return false;
+					}
+				}
+			});
+		});
+	});
+	</script>
 </body>
 </html>
