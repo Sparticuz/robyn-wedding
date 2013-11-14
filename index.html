@@ -7,10 +7,9 @@
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-	<section id="hero" class="panel">&nbsp;</section>
+	<section id="hero">&nbsp;</section>
 	<nav>
-	
-		<ul>
+		<ul class="nav">
 			<li class="menuItem"><a href="#hero" class="randa"><span>Robyn &amp; Alex</span></a></li>
 			<li class="menuItem"><a href="#ourstory"><span>Our Story</span></a></li>
 			<li class="menuItem"><a href="#people"><span>Bridal Party</span></a></li>
@@ -36,6 +35,7 @@
 
 	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 	<script src="stickUp.js"></script>
+	<script src="jquery.smooth-scroll.js"></script>
 
 	<script type="text/javascript">
 	jQuery(function($){
@@ -51,6 +51,7 @@
 				itemClass: 'menuItem',
 				itemHover: 'active',
 			});
+			$('nav ul li a').smoothScroll();
 		});
 	});
 	</script>

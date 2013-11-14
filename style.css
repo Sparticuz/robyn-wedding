@@ -3,6 +3,9 @@ body {
   background-color: #ccc;
   font-family: "Playfair Display", serif; }
 
+p {
+  margin: 0; }
+
 #hero {
   background-image: url("https://scontent-a-mia.xx.fbcdn.net/hphotos-ash3/532119_10151644330648460_645542820_n.jpg");
   background-size: 100%;
@@ -45,13 +48,18 @@ nav {
           font-family: "Playfair Display", serif; }
           nav ul li a.randa:hover span {
             border-bottom: 0 !important; }
-        nav ul li a .active {
+        nav ul li a.active {
           color: #ef545f; }
-          nav ul li a .active:hover span {
+          nav ul li a.active:hover span {
             border-bottom: 2px solid #ef545f; }
         nav ul li a:hover span {
           border-bottom: 2px solid #83d4f6;
           padding-bottom: 2px; }
+
+.panel:before {
+  display: block;
+  content: "";
+  height: 100px; }
 
 #date {
   display: block;
