@@ -29,11 +29,16 @@ nav {
     margin: 0;
     list-style-type: none;
     height: 100px;
-    display: table; }
+    display: table;
+    padding-left: 0; }
     nav ul li {
       display: table-cell;
       height: 100%;
       vertical-align: middle; }
+      nav ul li.active a {
+        color: #ef545f; }
+        nav ul li.active a:hover span {
+          border-bottom: 2px solid #ef545f; }
       nav ul li a {
         display: block;
         color: #83d4f6;
@@ -48,10 +53,6 @@ nav {
           font-family: "Playfair Display", serif; }
           nav ul li a.randa:hover span {
             border-bottom: 0 !important; }
-        nav ul li a.active {
-          color: #ef545f; }
-          nav ul li a.active:hover span {
-            border-bottom: 2px solid #ef545f; }
         nav ul li a:hover span {
           border-bottom: 2px solid #83d4f6;
           padding-bottom: 2px; }

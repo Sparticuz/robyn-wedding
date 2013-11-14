@@ -35,10 +35,19 @@ nav {
 		list-style-type: none;
 		height:100px;
 		display: table;
+		padding-left: 0;
 		li{
 			display: table-cell;
 			height:100%;
 			vertical-align: middle;
+			&.active {
+				a{
+					color:#ef545f;
+					&:hover span{
+						border-bottom: 2px solid #ef545f;
+					} 		
+				}
+			}
 			a {
 				display:block;
 				color:#83d4f6;
@@ -55,12 +64,6 @@ nav {
 					&:hover span{
 						border-bottom: 0 !important;
 					}
-				}
-				&.active {
-					color:#ef545f;
-					&:hover span{
-						border-bottom: 2px solid #ef545f;
-					} 	
 				}
 				&:hover span{
 					border-bottom: 2px solid #83d4f6;
