@@ -33,24 +33,28 @@ nav {
     padding-left: 0; }
     nav ul li {
       display: table-cell;
-      height: 100%;
       vertical-align: middle; }
+      nav ul li:first-child {
+        background: #ef545f; }
+        nav ul li:first-child span {
+          line-height: 1em !important; }
       nav ul li.active a {
         color: #ef545f; }
         nav ul li.active a:hover span {
           border-bottom: 2px solid #ef545f; }
       nav ul li a {
-        display: block;
+        display: table-cell;
         color: #83d4f6;
         text-decoration: none;
         padding: 0 24px; }
         nav ul li a span {
           line-height: 100px; }
         nav ul li a.randa {
-          background: #ef545f;
+          height: 100%;
           color: white;
           font-size: 20px;
-          font-family: "Playfair Display", serif; }
+          font-family: "Playfair Display", serif;
+          width: 80px; }
           nav ul li a.randa:hover span {
             border-bottom: 0 !important; }
         nav ul li a:hover span {

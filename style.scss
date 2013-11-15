@@ -38,8 +38,14 @@ nav {
 		padding-left: 0;
 		li{
 			display: table-cell;
-			height:100%;
 			vertical-align: middle;
+			&:first-child{
+				background:#ef545f;
+				span{
+					line-height: 1em !important;
+				}
+				
+			}
 			&.active {
 				a{
 					color:#ef545f;
@@ -49,18 +55,19 @@ nav {
 				}
 			}
 			a {
-				display:block;
+				display:table-cell;
 				color:#83d4f6;
 				text-decoration: none;
 				padding: 0 24px;
-				span {
-					line-height:100px;
+				span{
+					line-height: 100px;
 				}
 				&.randa{
-					background:#ef545f;
+					height:100%;
 					color:white;
 					font-size:20px;
 					font-family: $serif;
+					width:80px;
 					&:hover span{
 						border-bottom: 0 !important;
 					}
