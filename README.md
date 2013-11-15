@@ -2,8 +2,8 @@
 ## Current Incompatibilities
 
 1.  Viewport CSS units
-    a.  Not compatible with Android browser \<= 4.3
-    b.  Not compatible with IE8, which means no XP support
-    c.  http://caniuse.com/viewport-units
+    1.  Not compatible with Android browser \<= 4.3
+    1.  Not compatible with IE8, which means no XP support
+    1.  http://caniuse.com/viewport-units
 
 
