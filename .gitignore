@@ -26,6 +26,3 @@ Icon
 #sftp for sublime
 #this needs to be here because the plaintext password is in it
 sftp-config.json
-
-
-*.css
