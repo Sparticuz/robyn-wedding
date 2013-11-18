@@ -99,10 +99,12 @@ a:focus {
 
 /**
  * Improve readability when focused and also mouse hovered in all browsers.
+ * I added the :visited pseudo-class;
  */
 
 a:active,
-a:hover {
+a:hover,
+a:visited {
     outline: 0;
 }
 
