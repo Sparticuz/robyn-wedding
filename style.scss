@@ -131,12 +131,10 @@ p{
 
 #ourstory{
 	background-color:$blue;
-	display:inline-block;
 }
 
 #ourstory2{
 	background-color:$beige;
-		display:inline-block;
 }
 
 #backimage{
@@ -219,6 +217,7 @@ p{
 	max-width:1200px;
 	margin:0 auto;
 	border:1px solid black;
+	display:inline-block;
 }
 
 .twocol{

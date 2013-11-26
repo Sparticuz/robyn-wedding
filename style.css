@@ -92,12 +92,10 @@ p {
     color: #ef545f; }
 
 #ourstory {
-  background-color: #83d4f6;
-  display: inline-block; }
+  background-color: #83d4f6; }
 
 #ourstory2 {
-  background-color: #f0f0eb;
-  display: inline-block; }
+  background-color: #f0f0eb; }
 
 #backimage {
   background-image: url("images/backimage.jpg");
@@ -167,7 +165,8 @@ p {
 .container {
   max-width: 1200px;
   margin: 0 auto;
-  border: 1px solid black; }
+  border: 1px solid black;
+  display: inline-block; }
 
 .twocol {
   width: 45%;
