@@ -67,14 +67,12 @@ nav {
 
 section {
   padding: 0 100px;
-  max-width: 1300px;
-  margin: 0 auto; }
+  max-width: 1300px; }
   section.tempheight {
     height: 700px; }
 
 div {
-  max-width: 1300px;
-  margin: 0 auto; }
+  max-width: 1300px; }
 
 p {
   margin: 0;
