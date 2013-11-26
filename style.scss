@@ -94,9 +94,14 @@ nav {
 
 section{
 	padding: 0 100px;
+	border:1px solid black;
 	&.tempheight{
 		height:700px;
 	}
+}
+
+div, span{
+	border:1px solid green;
 }
 
 p{
@@ -212,6 +217,7 @@ p{
 	float:left;
 	margin-left:30px;
 		padding-top:30px;
+		border:1px solid red;
 }
 
 .clearfix{
