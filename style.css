@@ -132,9 +132,11 @@ p {
   text-align: center;
   font-style: italic;
   font-size: 50px;
+  max-width: 1000px;
   color: white;
   display: block;
-  clear: both; }
+  clear: both;
+  margin: 0 auto; }
 
 #ephesians {
   font-style: normal;
@@ -142,7 +144,9 @@ p {
   font-size: 30px;
   padding-top: 15px;
   text-align: center;
-  color: white; }
+  color: white;
+  max-width: 1000px;
+  margin: 0 auto; }
 
 #ohhey {
   background-image: url("images/footer_bg.jpg");

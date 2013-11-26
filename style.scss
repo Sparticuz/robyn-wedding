@@ -170,16 +170,17 @@ p{
 #bibleblock{
 	background-color:$blue;
 	padding:100px 30px;
-
 }
 
 .pullquote{
 	text-align:center;
 	font-style:italic;
 	font-size:50px;
+	max-width:1000px;
 	color:$white;
 	display:block;
 	clear:both;
+	margin:0 auto;
 }
 
 #ephesians{
@@ -189,6 +190,8 @@ p{
 	padding-top:15px;
 	text-align:center;
 	color:$white;
+	max-width:1000px;
+	margin:0 auto;
 }
 
 #ohhey{
