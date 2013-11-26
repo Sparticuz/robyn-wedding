@@ -71,9 +71,6 @@ section {
   section.tempheight {
     height: 700px; }
 
-div, span {
-  border: 1px solid green; }
-
 p {
   margin: 0;
   font-size: 17px;
