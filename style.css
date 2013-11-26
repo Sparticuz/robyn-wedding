@@ -66,8 +66,7 @@ nav {
   height: 100px; }
 
 section {
-  padding: 0 100px;
-  border: 1px solid black; }
+  padding: 0 100px; }
   section.tempheight {
     height: 700px; }
 
