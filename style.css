@@ -163,8 +163,10 @@ p {
     color: white; }
 
 .container {
+  max-width: 1200px;
   margin: 0 auto;
-  border: 1px solid black; }
+  border: 1px solid black;
+  display: inline-block; }
 
 .twocol {
   width: 45%;
