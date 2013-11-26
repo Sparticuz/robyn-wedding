@@ -83,11 +83,13 @@ p {
   text-transform: uppercase;
   text-align: center;
   display: block; }
-  .title.beginning {
+  .title.white {
     color: white; }
   .title.engagement {
     color: #83d4f6;
     padding-top: 100px; }
+  .title.pink {
+    color: #ef545f; }
 
 #ourstory {
   background-color: #83d4f6;

@@ -114,13 +114,16 @@ p{
 	text-transform:uppercase;
 	text-align:center;
 	display:block;
-	&.beginning{
+	&.white{
 		color:$white;
 	}
 	&.engagement{
 		color:$blue;
 		padding-top:100px;
 		
+	}
+	&.pink{
+		color:$pink;
 	}
 }
 
