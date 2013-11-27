@@ -68,8 +68,6 @@ nav {
 
 section {
   padding: 0 100px; }
-  section.tempheight {
-    height: 700px; }
 
 p {
   margin: 0;
@@ -88,7 +86,8 @@ p {
   .title.white {
     color: white; }
   .title.engagement {
-    color: #83d4f6; }
+    color: #83d4f6;
+    padding-top: 50px; }
   .title.pink {
     color: #ef545f; }
 
@@ -166,14 +165,12 @@ p {
 .container {
   max-width: 1200px;
   margin: 0 auto;
-  border: 1px solid black;
   box-sizing: border-box;
   display: table; }
 
 .twocol {
   width: 50%;
   float: left;
-  border: 1px solid red;
   padding: 15px;
   box-sizing: border-box; }
 

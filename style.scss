@@ -97,9 +97,6 @@ nav {
 
 section{
 	padding: 0 100px;
-	&.tempheight{
-		height:700px;
-	}
 }
 
 p{
@@ -123,6 +120,7 @@ p{
 	}
 	&.engagement{
 		color:$blue;
+		padding-top: 50px;
 	}
 	&.pink{
 		color:$pink;
@@ -216,7 +214,6 @@ p{
 .container{
 	max-width:1200px;
 	margin: 0 auto;
-	border:1px solid black;
 	box-sizing:border-box;
 	display:table;
 }
@@ -224,7 +221,6 @@ p{
 .twocol{
 	width:50%;
 	float:left;
-	border:1px solid red;
 	padding:15px;
 	box-sizing:border-box;
 }
