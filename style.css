@@ -53,6 +53,7 @@ nav {
           color: white;
           font-size: 20px;
           font-family: "Playfair Display", serif;
+          line-height: 1.1em;
           width: 80px; }
           nav ul li a.randa:hover span {
             border-bottom: 0 !important; }
@@ -82,12 +83,12 @@ p {
   font-family: "Montserrat", sans-serif;
   text-transform: uppercase;
   text-align: center;
+  padding: 15px;
   display: block; }
   .title.white {
     color: white; }
   .title.engagement {
-    color: #83d4f6;
-    padding-top: 100px; }
+    color: #83d4f6; }
   .title.pink {
     color: #ef545f; }
 
@@ -128,7 +129,7 @@ p {
   text-align: center;
   font-style: italic;
   font-size: 50px;
-  max-width: 1000px;
+  max-width: 1200px;
   color: white;
   display: block;
   clear: both;
@@ -141,7 +142,7 @@ p {
   padding-top: 15px;
   text-align: center;
   color: white;
-  max-width: 1000px;
+  max-width: 1200px;
   margin: 0 auto; }
 
 #ohhey {
@@ -165,13 +166,13 @@ p {
 .container {
   max-width: 1200px;
   margin: 0 auto;
-  border: 1px solid black; }
+  border: 1px solid black;
+  box-sizing: border-box; }
 
 .twocol {
   width: 50%;
   float: left;
   border: 1px solid red;
-  height: 400px;
   padding: 15px;
   box-sizing: border-box; }
 
