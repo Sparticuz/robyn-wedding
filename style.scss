@@ -103,6 +103,7 @@ p{
 	margin: 0;
 	font-size:17px;
 	line-height:32px;
+	padding-bottom:10px;
 }
 
 .last{
@@ -131,6 +132,9 @@ p{
 
 #ourstory{
 	background-color:$blue;
+	& a{
+		color:$pink;
+	}
 }
 
 #ourstory2{
