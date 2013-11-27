@@ -233,7 +233,6 @@ p{
 	& img{
 		display:block;
     margin:auto;
-    
 	}
 }
 
@@ -268,6 +267,13 @@ p{
 			border-bottom:2px solid $pink;
 		}
 		}
+
+h3{
+	text-transform: uppercase;
+	font-size:20px;
+	color:$white;
+	margin:0;
+}
 
 @media (max-width: 860px) {
   .twocol{
