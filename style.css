@@ -195,6 +195,21 @@ p {
 .clearfix {
   clear: both; }
 
+.gifts ul {
+  margin: 0;
+  list-style-type: none;
+  display: table;
+  font-size: 30px;
+  line-height: 1.75em;
+  padding: 0; }
+  .gifts ul a {
+    color: #83d4f6;
+    text-decoration: none;
+    border-bottom: 2px solid #83d4f6; }
+  .gifts ul a:hover {
+    color: #ef545f;
+    border-bottom: 2px solid #ef545f; }
+
 @media (max-width: 860px) {
   .twocol {
     width: 100%;

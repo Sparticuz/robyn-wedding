@@ -247,6 +247,24 @@ p{
 	clear:both;
 }
 
+.gifts ul{
+		margin:0;
+		list-style-type: none;
+		display: table;
+		font-size:30px;
+		line-height:1.75em;
+		padding:0;
+		& a{
+			color:$blue;
+			text-decoration: none;
+			border-bottom:2px solid $blue;
+		}
+		& a:hover{
+			color:$pink;
+			border-bottom:2px solid $pink;
+		}
+		}
+
 @media (max-width: 860px) {
   .twocol{
   	width:100%;
