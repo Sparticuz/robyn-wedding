@@ -73,8 +73,9 @@ p {
   margin: 0;
   font-size: 17px;
   line-height: 32px; }
-  p.last {
-    padding-bottom: 100px; }
+
+.last {
+  padding-bottom: 100px; }
 
 .title {
   font-size: 30px;
@@ -82,7 +83,8 @@ p {
   text-transform: uppercase;
   text-align: center;
   padding: 15px;
-  display: block; }
+  display: block;
+  clear: both; }
   .title.white {
     color: white; }
   .title.blue {
@@ -174,11 +176,21 @@ p {
   width: 50%;
   float: left;
   padding: 15px;
-  box-sizing: border-box;
-  border: 1px solid blue; }
+  box-sizing: border-box; }
   .twocol img {
     display: block;
     margin: auto; }
+
+.name {
+  display: block;
+  font-style: italic; }
+
+.sixcol {
+  width: 16.666666667%;
+  float: left;
+  display: block;
+  box-sizing: border-box;
+  padding: 20px; }
 
 .clearfix {
   clear: both; }

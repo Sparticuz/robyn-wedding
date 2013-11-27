@@ -103,10 +103,11 @@ p{
 	margin: 0;
 	font-size:17px;
 	line-height:32px;
-	&.last{
+}
+
+.last{
 		padding-bottom:100px;
 	}
-}
 
 .title{
 	font-size:30px;
@@ -115,6 +116,7 @@ p{
 	text-align:center;
 	padding:15px;
 	display:block;
+	clear:both;
 	&.white{
 		color:$white;
 	}
@@ -224,12 +226,21 @@ p{
 	float:left;
 	padding:15px;
 	box-sizing:border-box;
-	border:1px solid blue;
 	& img{
 		display:block;
     margin:auto;
     
 	}
+}
+
+.name{display:block;font-style: italic;}
+
+.sixcol{
+	width:16.666666667%;
+	float:left;
+	display:block;
+	box-sizing:border-box;
+	padding:20px;
 }
 
 .clearfix{
