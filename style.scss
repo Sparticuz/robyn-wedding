@@ -149,6 +149,8 @@ p{
 	background-size: 100%;
 	height:450px;
 	background-attachment: fixed;
+	background-position:center;
+	background-repeat:no-repeat;
 }
 
 #people{
@@ -208,7 +210,6 @@ p{
 	text-transform:uppercase;
 	& a{color:$white;
 	}
-
 }
 
 .container{
@@ -223,6 +224,10 @@ p{
 	float:left;
 	padding:15px;
 	box-sizing:border-box;
+	& img{
+		display:block;
+    margin:auto;
+	}
 }
 
 .clearfix{
