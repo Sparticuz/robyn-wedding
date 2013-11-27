@@ -118,9 +118,9 @@ p{
 	&.white{
 		color:$white;
 	}
-	&.engagement{
+	&.blue{
 		color:$blue;
-		padding-top: 50px;
+		padding-top: 80px;
 	}
 	&.pink{
 		color:$pink;
@@ -224,12 +224,24 @@ p{
 	float:left;
 	padding:15px;
 	box-sizing:border-box;
+	border:1px solid blue;
 	& img{
 		display:block;
     margin:auto;
+    
 	}
 }
 
 .clearfix{
 	clear:both;
+}
+
+@media (max-width: 860px) {
+  .twocol{
+  	width:100%;
+  	clear:both;
+  }
+  section{
+  	padding:30px;
+  }
 }
