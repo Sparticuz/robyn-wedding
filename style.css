@@ -101,7 +101,7 @@ p {
 
 #backimage {
   background-image: url("images/backimage.jpg");
-  background-size: 100%;
+  background-size: cover;
   height: 450px;
   background-attachment: fixed;
   background-position: center;
@@ -109,7 +109,7 @@ p {
 
 #backmap {
   background-image: url("images/maptest.jpg");
-  background-size: 100%;
+  background-size: cover;
   height: 450px;
   background-attachment: fixed;
   background-position: center;
@@ -220,6 +220,12 @@ h3 {
   .twocol {
     width: 100%;
     clear: both; }
+
+  nav {
+    display: none; }
+
+  #backimage, #backmap {
+    background-attachment: scroll; }
 
   section {
     padding: 30px; } }
