@@ -216,6 +216,16 @@ h3 {
   color: white;
   margin: 0; }
 
+.mapcontainer {
+  width: 700px;
+  height: 400px;
+  float: left; }
+
+.extrainfo {
+  width: 300px;
+  float: right;
+  margin-left: 30px; }
+
 @media (max-width: 860px) {
   .twocol {
     width: 100%;
