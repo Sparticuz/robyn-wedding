@@ -200,6 +200,7 @@ p{
 	background-size: 100%;
 	background-position:center bottom; 
 	background-repeat: no-repeat;
+	background-color: $blue;
 }
 
 #credits{
@@ -294,8 +295,12 @@ h3{
 
   nav{display:none;}
 
-  #backimage, #backmap, #ohhey{
+  #backimage, #backmap{
   	background-attachment:scroll;
+  }
+
+  #ohhey{
+  	background-size:cover;
   }
 
   section{
@@ -307,6 +312,5 @@ h3{
 	#ohhey{
 		width:1300px;
 		margin:0 auto;
-		background-color: $blue;
 	}
 }
