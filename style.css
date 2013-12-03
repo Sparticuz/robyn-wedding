@@ -188,7 +188,6 @@ p {
 .sixcol {
   width: 16.666666667%;
   float: left;
-  display: block;
   box-sizing: border-box;
   padding: 20px; }
 
@@ -230,6 +229,9 @@ h3 {
   .twocol {
     width: 100%;
     clear: both; }
+
+  .sixcol {
+    width: 33.333333333%; }
 
   nav {
     display: none; }
