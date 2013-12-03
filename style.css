@@ -149,12 +149,11 @@ p {
   margin: 0 auto; }
 
 #ohhey {
-  background-image: url("images/footer_bg.jpg");
+  background-image: #83d4f6 url("images/footer_bg.jpg");
   height: 390px;
   background-size: 100%;
   background-position: center bottom;
-  background-repeat: no-repeat;
-  background-color: #83d4f6; }
+  background-repeat: no-repeat; }
 
 #credits {
   text-align: center;
