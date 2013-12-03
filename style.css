@@ -244,4 +244,6 @@ h3 {
 @media (min-width: 1300px) {
   #ohhey {
     width: 1300px;
-    margin: 0 auto; } }
+    margin: 0 auto;
+    background-color: #83d4f6;
+    background-attachment: scroll; } }
