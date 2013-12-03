@@ -270,6 +270,11 @@ h3{
 	font-size:20px;
 	color:$white;
 	margin:0;
+	padding-top: 15px;
+}
+
+h3:first-child{
+	padding-top:0;
 }
 
 .mapcontainer{
@@ -282,6 +287,9 @@ h3{
 	width:300px;
 	float:left;
 	margin-left: 30px;
+	& a{
+		color:$pink;
+	}	
 }
 
 @media (max-width: 860px) {
