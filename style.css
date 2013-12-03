@@ -5,10 +5,11 @@ body {
 
 #hero {
   background-image: url("images/hero.jpg");
-  background-size: 100%;
+  background-size: cover;
   vertical-align: middle;
   position: relative;
   background-repeat: no-repeat;
+  background-position: center center;
   height: 100vh; }
 
 nav {
