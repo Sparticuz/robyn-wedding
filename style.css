@@ -227,7 +227,7 @@ h3 {
   float: left;
   margin-left: 30px; }
 
-@media (max-width: 860px) {
+@media (max-width: 768px) {
   #hero {
     height: 1024px; }
 
