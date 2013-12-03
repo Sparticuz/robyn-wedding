@@ -236,7 +236,7 @@ h3 {
   nav {
     display: none; }
 
-  #backimage, #backmap {
+  #backimage, #backmap, #ohhey {
     background-attachment: scroll; }
 
   section {
@@ -245,5 +245,4 @@ h3 {
   #ohhey {
     width: 1300px;
     margin: 0 auto;
-    background-color: #83d4f6;
-    background-attachment: scroll; } }
+    background-color: #83d4f6; } }
