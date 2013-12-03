@@ -228,6 +228,9 @@ h3 {
   margin-left: 30px; }
 
 @media (max-width: 860px) {
+  #hero {
+    height: 1024px; }
+
   .twocol {
     width: 100%;
     clear: both; }
